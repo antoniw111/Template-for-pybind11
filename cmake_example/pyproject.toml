@@ -1,0 +1,22 @@
+[build-system]
+requires = ["scikit-build-core", "pybind11"]
+build-backend = "scikit_build_core.build"
+
+[project]
+name = "cmake_example"
+version = "0.0.1"
+description = "Example project using pybind11 and CMake"
+readme = "README.md"
+requires-python = ">=3.7"
+license = {text = "MIT"}
+
+authors = [
+  {name = "Antoni", email = "antoni@example.com"}
+]
+
+classifiers = [
+  "Programming Language :: Python :: 3",
+  "Programming Language :: C++",
+  "License :: OSI Approved :: MIT License",
+  "Operating System :: Linux"
+]
