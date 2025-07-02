@@ -1,2 +1,2 @@
 # cmake_example
-Minimalny przykład integracji pybind11 z setuptools i CMake.
+Minimalistic example of pybind11 using scikit-build_core as a backend.
